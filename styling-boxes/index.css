@@ -1,0 +1,27 @@
+html {
+    font-family: sans-serif;
+    font-size: 1.125rem;
+  }
+  
+  /* Your CSS below here */
+
+p {
+    width: 200px;
+    line-height: 3em;
+    background-color: red;
+    color: red;
+    text-shadow: 1px .5px 2px rgb(0, 0, 0);
+    border: 1px #910707 solid;
+    border-radius: 10px;          
+}
+
+.shadow {
+    box-shadow: 4px 4px 4px black, 
+    inset 1px 1px 1px white, 
+    inset -1px -1px 1px rgba(0,0,0,0.4);
+}
+
+.grad {
+    background-image: linear-gradient(to top left,rgba(0, 0, 0, 0) 30%, rgba(255, 255, 255, 0.2)); /*Standard*/
+}
+
