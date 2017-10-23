@@ -1,6 +1,7 @@
 html {
     font-family: sans-serif;
     font-size: 1.125rem;
+    /* expressed in rem assuming base size is 16px */
   }
   
   /* Your CSS below here */
