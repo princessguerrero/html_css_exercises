@@ -14,10 +14,13 @@ input[type="text"] {
     background-position: 0.5em 0.35em;
 }
 
+input[type="text"]:hover, input[type="text"]:focus {
+    background-color: white;
+    border-color: lightblue;
+}
+
 #email {
     background-image: url('email.png');
-    
-
 }
 
 #twitter {
@@ -26,4 +29,8 @@ input[type="text"] {
 
 #web {
     background-image: url('web.png');
+}
+
+input[type="submit"] {
+    background-color: orange;
 }
