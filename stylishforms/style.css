@@ -1,0 +1,29 @@
+body {
+    font-size: 20px;
+}
+
+input[type="text"] {
+    height: 2em;
+    display: block;
+    margin: 1em 0;
+    padding-left: 3em;
+    background-color: #eee;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    background-repeat: no-repeat;
+    background-position: 0.5em 0.35em;
+}
+
+#email {
+    background-image: url('email.png');
+    
+
+}
+
+#twitter {
+    background-image: url('twitter.png');
+}
+
+#web {
+    background-image: url('web.png');
+}
