@@ -1,0 +1,57 @@
+/* General setup */
+@font-face {
+    font-family: 'introrustg';
+    src: url('fonts/introrustg-base2line-webfont-webfont.woff2') format('woff2'),
+         url('fonts/introrustg-base2line-webfont-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'sofiapro';
+    src: url('fonts/sofiapro-light-webfont-webfont.woff2') format('woff2'),
+         url('fonts/sofiapro-light-webfont-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* font-family: 'Indie Flower', cursive;
+font-family: 'Pacifico', cursive;
+font-family: 'Permanent Marker', cursive;
+font-family: 'Tangerine', cursive;
+font-family: 'VT323', monospace; */
+
+html {
+  font-size: 10px;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+body {
+  width: 80%;
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: 'sofiapro'
+}
+
+/* Typography */
+
+h1 {
+  font-size: 3.2rem;
+  font-family: 'introrustg'
+}
+
+h2 {
+  font-size: 2.4rem;
+  font-family: 'introrustg'
+}
+
+p {
+  font-size: 1.4rem;
+  line-height: 1.6;
+  word-spacing: 0.6rem;
+}
+
