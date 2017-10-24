@@ -15,11 +15,12 @@ a:hover, a:active {
     font-weight: bold;
 }
 
-p:first-child::first-line {
+p:first-of-type::first-line {
     text-transform: uppercase;
+    color: red;
 }
 
-p:nth-child(2)::first-line{
+p:nth-of-type(2)::first-line{
     background-color: pink;
 }
 
