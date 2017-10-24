@@ -1,0 +1,32 @@
+html {
+    font-size: 16px;
+    font-family: 'Special Elite', cursive;
+}
+
+.wrapper {
+    background:transparent url(https://www.nationalgeographic.com/content/dam/animals/photos/000/005/559.ngsversion.1500393938558.adapt.1190.1.jpg) no-repeat center center;}
+
+p {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+legend {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h1 {
+    font-family: 'Special Elite', cursive;
+    font-size: 25px;
+}
+
+.textareatransparent {
+    font-size: 12px;
+    background-color: transparent;
+    color: lightblue;
+}
+
+.fieldsetmargin {
+    margin: 5px;
+}

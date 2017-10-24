@@ -1,0 +1,12 @@
+input:valid {
+    border: 5px solid green;
+}
+
+input:focus {
+    background-color: yellow;
+}
+
+form :nth-child(5) {
+    position: absolute;
+    left: -9999px;
+}
