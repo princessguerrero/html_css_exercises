@@ -1,0 +1,32 @@
+body {
+    background-color: turquoise;
+}
+
+a, a:link {
+    color: blue;
+}
+
+a:visited {
+    color:grey;
+}
+
+a:hover, a:active {
+    color: green;
+    font-weight: bold;
+}
+
+p:first-child::first-line {
+    text-transform: uppercase;
+}
+
+p:nth-child(2)::first-line{
+    background-color: pink;
+}
+
+img {
+    border: 5px solid rgba(0,0,0,0);
+}
+
+img:hover {
+    border: 5px solid orange;
+}
