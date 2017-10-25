@@ -1,0 +1,26 @@
+/* font-family: 'Freckle Face', cursive;
+font-family: 'Pragati Narrow', sans-serif; */
+body {
+    font-family: 'Pragati Narrow', sans-serif;
+    font-size: 24px;
+    width: 40em;
+    text-align: center;
+    margin: center;
+}
+
+body h1 {
+    font-family: 'Freckle Face', cursive;
+}
+
+body h2 {
+    font-family: 'Pragati Narrow', sans-serif;
+}
+
+
+
+@media (max-width: 961px) {
+   
+    body {
+        width:  30em; 
+    }
+}
