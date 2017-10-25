@@ -1,0 +1,53 @@
+/* font-family: 'Lobster Two', cursive;
+font-family: 'Cutive Mono', monospace; */
+#picture {
+    text-align: center;
+    padding-left: 22%;
+}
+
+#content {
+    padding-left: 22%;
+    font-family: 'Cutive Mono', monospace;    
+}
+
+.sidenav {
+    position: absolute;
+    font-size: 20px;
+    font-family: 'Lobster Two', cursive;
+    /* z-index: 1; */
+    top: 0;
+    left: 0;
+    width: 20%;
+    height: 100%;
+    /* overflow-x: hidden; */
+    border: 3px solid #73AD21;
+    background-color: pink;
+    padding-top: 20px;
+}
+
+.sidenav a {
+    padding: 20px 20px 2p0px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: yellow
+}
+
+@media print {
+    .sidenav {
+        display: none;
+    }
+
+    #content{
+        padding: 1px;
+    }
+
+    #picture{
+        padding: 1px;
+    }
+}
+
