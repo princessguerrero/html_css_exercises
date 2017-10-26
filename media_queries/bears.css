@@ -5,7 +5,7 @@ body {
     font-size: 24px;
     width: 40em;
     text-align: center;
-    margin: center;
+    margin: 0 auto;
 }
 
 body h1 {
