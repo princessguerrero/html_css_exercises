@@ -1,0 +1,29 @@
+h1, h2, h3 {
+    background-color: goldenrod;
+}
+
+h1, p {
+    padding: 20px;
+    margin: 20px;
+}
+
+#content p {
+    font-variant: small-caps;
+}
+
+#teams span {
+    
+    color: red;
+}
+
+.players > li {
+    color: blue;
+}
+
+.players :first-child {
+    color: orange;
+}
+
+#teams > li {
+    list-style-type: none;
+}
