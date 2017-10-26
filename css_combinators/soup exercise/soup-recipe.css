@@ -1,0 +1,30 @@
+h1 {
+    text-align: center;
+    color: #FF2600;
+    font-family: 'Pacifico', cursive;
+}
+
+body {
+    margin: 2%;
+    background-color: lightcoral;
+    border: 5px dashed darkgoldenrod;
+    padding-left: 40px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+}
+
+ul > li {
+    font-weight: bold;
+}
+
+ol > li {
+    font-variant: small-caps;
+    font-size: 18px;
+
+}
+
+img {
+    width: 20%;
+    margin-left: 40%;
+
+}
