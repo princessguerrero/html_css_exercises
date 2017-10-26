@@ -1,0 +1,29 @@
+html {
+    font-size: 18px;
+}
+
+#content {
+    padding-bottom: 10%;
+}
+
+.fixed {
+    position: fixed;
+    bottom: 0; 
+    border: 10px solid orange;
+    background-color: black;
+    /* width: 700px; */
+    width: 98.8%;
+    text-align:center;
+    
+}
+
+img {
+    width: 20%;
+}
+
+body {
+    margin: 0;
+    text-align: justify;
+    /* margin: 0 auto;
+    padding: 0 10% 2 0% 20% */
+}
