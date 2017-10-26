@@ -1,0 +1,52 @@
+img {
+    position: absolute;
+    display: block;
+}
+
+body {
+    padding: 35%;
+    background-color: blue;
+}
+
+#firstred {
+    width: 50px;
+    height: 50px;
+    margin: 11.7%;
+    z-index: 5;
+    opacity: .5;
+}
+
+#secondblack {
+    width: 100px;
+    height: 100px;
+    margin: 10.1%;
+    z-index: 4;
+}
+
+#thirdgreen {
+    width: 150px;
+    height: 150px;
+    margin: 8.4%;
+    z-index: 3;
+}
+
+#fourthblack {
+    width: 230px;
+    height: 230px;
+    margin: 5.7%;
+    z-index: 2;
+}
+
+#fifthred {
+    width: 300px;
+    height: 300px;
+    margin: 3.3%;
+    z-index: 1;
+    opacity: .5;
+}
+
+#sixthblack {
+    width: 400px;
+    height: 400px;
+    z-index: 0;
+}
