@@ -1,0 +1,38 @@
+h1 {
+    font-family: serif;
+}
+
+
+.sidebar {
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    top: 0;
+    left: 0;    
+    border-right: 1px dotted grey;
+}
+
+ol>li {
+    font-family: sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+.sidebar a:hover {
+    color: pink;
+}
+
+#content {
+    padding-left: 250px;
+}
+
+#image {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+img {
+    width: 200px;
+}
