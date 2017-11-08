@@ -1,45 +1,41 @@
 var counter = 0
 var id;
-var inc = false;
+var rate = 1
 
-function increment() {
-    inc = true;
-    counter += 1
+function increment(rate) {
+    counter += rate
     document.querySelector('#counter').innerText = counter
 }
 
-function decrement() {
-    inc = false;
-    counter -= 1
+function decrement(rate) {
+    counter -= rate
     document.querySelector('#counter').innerText = counter
 }
 
 function timesTwo() {
-    if(inc) {
-    counter += 2
-    } else {
-    counter -= 2
-    }
-    document.querySelector('#counter').innerText = counter
+    rate = rate * 2
 }
 
 var btnDown = document.querySelector('#down')
 btnDown.addEventListener('click', function () {
     clearInterval(id)
-    id = setInterval(decrement, 200)
+    id = setInterval(function () {
+        decrement(rate)
+    }, 1000)
 })
 
 var btnUp = document.querySelector('#up')
 btnUp.addEventListener('click', function () {
     clearInterval(id)
 
-    id = setInterval(increment, 200)
+    id = window.setInterval(function () {
+        increment(rate)
+    }, 1000)
 })
 
 var btnTimesTwo = document.querySelector('#timestwo')
 btnTimesTwo.addEventListener('click', function () {
-    clearInterval(id)
-
-    id = setInterval(timesTwo, 200)
+        timesTwo()
+    
 })
 
